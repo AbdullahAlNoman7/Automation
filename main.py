@@ -1,16 +1,21 @@
-# This is a sample Python script.
+import myFormula1
+import myFormula2
+from myFormula3 import modulo
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+num1 = 10
+num2 = 5
 
+mySumCalculation = myFormula1.summation(num1, num2)
+print(mySumCalculation)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+mySubCalculation = myFormula1.subtraction(num1, num2)
+print(mySubCalculation)
 
+myMultiplicationCalculation = myFormula2.multiplication(num1, num2)
+print(myMultiplicationCalculation)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+myDivisionCalculation = myFormula2.division(num1, num2)
+print(myDivisionCalculation)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+myModuloCalculation = modulo(num1, num2)
+print(myModuloCalculation)
