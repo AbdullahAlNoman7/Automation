@@ -1,0 +1,1547 @@
+1672640288584	geckodriver	INFO	Listening on 127.0.0.1:5587
+1672640291677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5588" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileZKxPKJ"
+1672640292082	Marionette	INFO	Marionette enabled
+1672640292090	Marionette	INFO	Listening on port 5598
+Read port: 5598
+WebDriver BiDi listening on ws://127.0.0.1:5588
+1672640292239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileZKxPKJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:5588/devtools/browser/eaf3f18e-ef91-4529-9d4d-23d1fd4b4984
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672640388879	Marionette	INFO	Stopped listening on port 5598
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\S\AppData\Local\Temp\rust_mozprofileZKxPKJ\protections.sqlite
+1672640390134	geckodriver	INFO	Listening on 127.0.0.1:5766
+1672640393205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5767" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile9x6uXn"
+1672640393626	Marionette	INFO	Marionette enabled
+1672640393633	Marionette	INFO	Listening on port 5776
+Read port: 5776
+WebDriver BiDi listening on ws://127.0.0.1:5767
+1672640393767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile9x6uXn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:5767/devtools/browser/58c90288-278e-4794-b779-583108929be5
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672640432266	Marionette	INFO	Stopped listening on port 5776
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672640436913	geckodriver	INFO	Listening on 127.0.0.1:5918
+1672640439964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileVbfwmn"
+1672640440354	Marionette	INFO	Marionette enabled
+1672640440361	Marionette	INFO	Listening on port 5928
+Read port: 5928
+WebDriver BiDi listening on ws://127.0.0.1:5919
+1672640440491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileVbfwmn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:5919/devtools/browser/97590e66-7773-444f-afd3-d8a52b5af3b7
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672640712302	Marionette	INFO	Stopped listening on port 5928
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "6092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileWpJL1M"
+1672640654421	Marionette	INFO	Marionette enabled
+1672640654430	Marionette	INFO	Listening on port 6102
+Read port: 6102
+WebDriver BiDi listening on ws://127.0.0.1:6092
+1672640654579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileWpJL1M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6092/devtools/browser/cbd47cc1-e967-4732-9339-482cb245bd4e
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+1672640708855	Marionette	INFO	Stopped listening on port 6102
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+[Parent 6776, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1672640729880	geckodriver	INFO	Listening on 127.0.0.1:6238
+1672640732945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6239" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileKU0F8p"
+1672640733387	Marionette	INFO	Marionette enabled
+1672640733395	Marionette	INFO	Listening on port 6250
+WebDriver BiDi listening on ws://127.0.0.1:6239
+Read port: 6250
+1672640733697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileKU0F8p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6239/devtools/browser/3f7f3c0a-3266-40d4-a77d-599ef848a075
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.11/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+1672640788752	Marionette	INFO	Stopped listening on port 6250
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672640790144	geckodriver	INFO	Listening on 127.0.0.1:6377
+1672640793220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6378" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile2pYWw9"
+1672640793667	Marionette	INFO	Marionette enabled
+1672640793675	Marionette	INFO	Listening on port 6389
+WebDriver BiDi listening on ws://127.0.0.1:6378
+Read port: 6389
+1672640793978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile2pYWw9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6378/devtools/browser/1de4059d-6194-48f5-8825-10ba45dac915
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+1672640825428	Marionette	INFO	Stopped listening on port 6389
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672640865717	geckodriver	INFO	Listening on 127.0.0.1:6526
+1672640868798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilesQUmri"
+1672640869209	Marionette	INFO	Marionette enabled
+1672640869215	Marionette	INFO	Listening on port 6537
+Read port: 6537
+WebDriver BiDi listening on ws://127.0.0.1:6527
+1672640869357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilesQUmri\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6527/devtools/browser/902fc001-56ce-4640-8ee7-b5b44369634d
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672641300407	Marionette	INFO	Stopped listening on port 6537
+1672641301358	geckodriver	INFO	Listening on 127.0.0.1:6962
+1672641304416	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileQp3EQ3"
+1672641304807	Marionette	INFO	Marionette enabled
+1672641304813	Marionette	INFO	Listening on port 6974
+Read port: 6974
+WebDriver BiDi listening on ws://127.0.0.1:6963
+1672641304950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileQp3EQ3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6963/devtools/browser/aa64d4df-dee3-4cca-8dd1-16742a4132a4
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+1672641367623	Marionette	INFO	Stopped listening on port 6974
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672663793430	geckodriver	INFO	Listening on 127.0.0.1:1534
+1672663796535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileJftEdl"
+1672663797008	Marionette	INFO	Marionette enabled
+1672663797016	Marionette	INFO	Listening on port 1546
+Read port: 1546
+WebDriver BiDi listening on ws://127.0.0.1:1535
+1672663797220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileJftEdl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1535/devtools/browser/be76ccbe-df90-45c5-9457-7467c9f5eace
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+1672663921940	Marionette	INFO	Stopped listening on port 1546
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672663925965	geckodriver	INFO	Listening on 127.0.0.1:1729
+1672663929013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1730" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilekOzPOL"
+1672663929523	Marionette	INFO	Marionette enabled
+1672663929530	Marionette	INFO	Listening on port 1741
+Read port: 1741
+WebDriver BiDi listening on ws://127.0.0.1:1730
+1672663929676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilekOzPOL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1730/devtools/browser/d124dc47-1559-4c54-8a14-7531ed0d1bc1
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: Error: Not a callable object.
+Stack: callPropertyOnObject@resource://devtools/shared/DevToolsUtils.js:928:11
+previewers.RegExp<@resource://devtools/server/actors/object/previewers.js:171:33
+_populateGripPreview@resource://devtools/server/actors/object.js:250:42
+form@resource://devtools/server/actors/object.js:188:10
+createObjectGrip@resource://devtools/server/actors/object/utils.js:540:16
+createValueGrip@resource://devtools/server/actors/object/utils.js:170:14
+createValueGripForTarget@resource://devtools/server/actors/object/utils.js:474:10
+prepareConsoleMessageForRemote/result.arguments<@resource://devtools/server/actors/resources/console-messages.js:212:18
+prepareConsoleMessageForRemote@resource://devtools/server/actors/resources/console-messages.js:210:27
+watch@resource://devtools/server/actors/resources/console-messages.js:99:18
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 928, column: 11
+console.error: (new Error("Not a callable object.", "resource://devtools/shared/DevToolsUtils.js", 928))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672664032879	Marionette	INFO	Stopped listening on port 1741
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672664084907	geckodriver	INFO	Listening on 127.0.0.1:1976
+1672664087985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilexqZJQR"
+1672664088412	Marionette	INFO	Marionette enabled
+1672664088419	Marionette	INFO	Listening on port 1988
+Read port: 1988
+WebDriver BiDi listening on ws://127.0.0.1:1977
+1672664088561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilexqZJQR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1977/devtools/browser/39999d21-41ef-47d6-8388-b13436dd7138
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+1672664205628	Marionette	INFO	Stopped listening on port 1988
+1672664233656	geckodriver	INFO	Listening on 127.0.0.1:2192
+1672664236722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2193" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile1hvADK"
+1672664237135	Marionette	INFO	Marionette enabled
+1672664237142	Marionette	INFO	Listening on port 2204
+Read port: 2204
+WebDriver BiDi listening on ws://127.0.0.1:2193
+1672664237283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile1hvADK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2193/devtools/browser/b687bf05-9f37-4bce-8672-045dac6c87b4
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://member.daraz.com.bd."
+JavaScript error: https://aswpsdkeu.com/notify/v1/ua-sdk.min.js, line 1: Error: Secondary origin not allowed. Got: https://member.daraz.com.bd. Allowed: ["https://daraz.lk","https://www.daraz.lk","https://daraz.com.np","https://www.daraz.com.np","https://daraz.pk","https://www.daraz.pk","https://daraz.com.bd","https://www.daraz.com.bd","https://cart-m.daraz.lk","https://cart.daraz.lk","https://checkout-m.daraz.lk","https://checkout.daraz.lk","https://cart.daraz.pk","https://cart-m.daraz.pk","https://checkout-m.daraz.pk","https://checkout.daraz.pk","https://cart.daraz.com.bd","https://cart-m.daraz.com.bd","https://checkout-m.daraz.com.bd","https://checkout.daraz.com.bd","https://cart.daraz.com.np","https://cart-m.daraz.com.np","https://checkout.daraz.com.np","https://checkout-m.daraz.com.np"]
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.4/et_n.js, line 2: WebGL context was lost.
+1672664425933	Marionette	INFO	Stopped listening on port 2204
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672664708519	geckodriver	INFO	Listening on 127.0.0.1:2607
+1672664711584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2608" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilefRbaxU"
+1672664712007	Marionette	INFO	Marionette enabled
+1672664712014	Marionette	INFO	Listening on port 2619
+Read port: 2619
+WebDriver BiDi listening on ws://127.0.0.1:2608
+1672664712150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilefRbaxU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2608/devtools/browser/fa496bff-c7f1-4c44-8e04-35676510f7de
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.11/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672664826188	Marionette	INFO	Stopped listening on port 2619
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "Sqlite.sys.mjs: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1672664827186	geckodriver	INFO	Listening on 127.0.0.1:2829
+1672664830254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2830" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileoWPVy0"
+1672664830662	Marionette	INFO	Marionette enabled
+1672664830669	Marionette	INFO	Listening on port 2841
+Read port: 2841
+WebDriver BiDi listening on ws://127.0.0.1:2830
+1672664830804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileoWPVy0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2830/devtools/browser/f09b9c48-cc24-4159-ac05-0f8aca8929e0
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672664871392	Marionette	INFO	Stopped listening on port 2841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\S\AppData\Local\Temp\rust_mozprofileoWPVy0\protections.sqlite
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672664914437	geckodriver	INFO	Listening on 127.0.0.1:3029
+1672664917489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3030" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileYEXN9o"
+1672664917903	Marionette	INFO	Marionette enabled
+1672664917911	Marionette	INFO	Listening on port 3041
+Read port: 3041
+WebDriver BiDi listening on ws://127.0.0.1:3030
+1672664918062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileYEXN9o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3030/devtools/browser/b2f1cffa-23f0-49b8-be9d-3dcaab3c43e6
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672665101665	Marionette	INFO	Stopped listening on port 3041
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1672665176797	geckodriver	INFO	Listening on 127.0.0.1:3497
+1672665179858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3498" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileSXeyog"
+1672665180265	Marionette	INFO	Marionette enabled
+1672665180272	Marionette	INFO	Listening on port 3508
+Read port: 3508
+WebDriver BiDi listening on ws://127.0.0.1:3498
+1672665180417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofileSXeyog\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3498/devtools/browser/6ec4ceb8-2f3b-4661-b4dc-4707f63efdc2
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+1672665209251	Marionette	INFO	Stopped listening on port 3508
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672665264369	geckodriver	INFO	Listening on 127.0.0.1:3657
+1672665267424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3658" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilej24rJg"
+1672665267823	Marionette	INFO	Marionette enabled
+1672665267829	Marionette	INFO	Listening on port 3668
+Read port: 3668
+WebDriver BiDi listening on ws://127.0.0.1:3658
+1672665267964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilej24rJg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3658/devtools/browser/2d95a1b8-9b7e-4363-8c05-ed2f448a265b
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672665294523	Marionette	INFO	Stopped listening on port 3668
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672665345961	geckodriver	INFO	Listening on 127.0.0.1:3868
+1672665349025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilecrwhu1"
+1672665349450	Marionette	INFO	Marionette enabled
+1672665349457	Marionette	INFO	Listening on port 3880
+WebDriver BiDi listening on ws://127.0.0.1:3869
+Read port: 3880
+1672665349757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilecrwhu1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3869/devtools/browser/28462935-4d35-45c3-a2ee-ad3b1d7ae799
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: Error: Not a callable object.
+Stack: callPropertyOnObject@resource://devtools/shared/DevToolsUtils.js:928:11
+previewers.RegExp<@resource://devtools/server/actors/object/previewers.js:171:33
+_populateGripPreview@resource://devtools/server/actors/object.js:250:42
+form@resource://devtools/server/actors/object.js:188:10
+createObjectGrip@resource://devtools/server/actors/object/utils.js:540:16
+createValueGrip@resource://devtools/server/actors/object/utils.js:170:14
+createValueGripForTarget@resource://devtools/server/actors/object/utils.js:474:10
+prepareConsoleMessageForRemote/result.arguments<@resource://devtools/server/actors/resources/console-messages.js:212:18
+prepareConsoleMessageForRemote@resource://devtools/server/actors/resources/console-messages.js:210:27
+watch@resource://devtools/server/actors/resources/console-messages.js:99:18
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 928, column: 11
+console.error: (new Error("Not a callable object.", "resource://devtools/shared/DevToolsUtils.js", 928))
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672665388150	Marionette	INFO	Stopped listening on port 3880
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672665502032	geckodriver	INFO	Listening on 127.0.0.1:4130
+1672665505097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile7HPEz3"
+1672665505510	Marionette	INFO	Marionette enabled
+1672665505518	Marionette	INFO	Listening on port 4142
+Read port: 4142
+WebDriver BiDi listening on ws://127.0.0.1:4131
+1672665505664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofile7HPEz3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4131/devtools/browser/7f2a9bca-6a14-4237-89a7-3fd6ed9332f3
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.11/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1672672582810	Marionette	INFO	Stopped listening on port 4142
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ "localhost" "-no-remote" "-profile" "C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilekURUAx"
+1672665591481	Marionette	INFO	Marionette enabled
+1672665591488	Marionette	INFO	Listening on port 4340
+Read port: 4340
+WebDriver BiDi listening on ws://127.0.0.1:4330
+1672665591625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\S\\AppData\\Local\\Temp\\rust_mozprofilekURUAx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4330/devtools/browser/01c51ce5-6add-4fc8-833a-edab1a0fe643
+JavaScript warning: https://laz-g-cdn.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://laz-g-cdn.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://laz-g-cdn.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 6: WebGL context was lost.
+JavaScript warning: https://aeu.alicdn.com/AWSC/uab/1.140.0/collina.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672665616344	Marionette	INFO	Stopped listening on port 4340
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
