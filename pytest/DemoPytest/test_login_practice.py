@@ -60,7 +60,7 @@ def test_add_address():
     # Add info
     first_name.send_keys('Md. ')
     last_name.send_keys('Ketty ')
-    company.send_keys('SJ company')
+    company.send_keys('SJ company China')
     address_01.send_keys('Dhaka bangladesh ')
     address_02.send_keys('Dhaka mirpur ')
     city.send_keys('Uttara ')
